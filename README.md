@@ -3,7 +3,7 @@ Sample Project for Text View Appearance
 
 I use the `UIAppearance` API to set the textColor of my textViews:
 ```swift
-UITextView.appearance().textColor = UIColor.blueColor()
+UITextView.appearance().textColor = UIColor.blackColor()
 ```
 However, when I then set an attributed text with a different color, this does not seem to be honored:
 ```swift
